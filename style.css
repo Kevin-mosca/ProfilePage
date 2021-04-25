@@ -1,0 +1,386 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: grey;
+}
+#header{
+    display:flex;
+    justify-self: flex-end;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10;
+    border: 1px solid red;
+}
+.headerleft{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 500px;
+    
+    border: 2px grey;
+}
+.nav-title{
+    justify-content: center;
+    left: 10px;
+    font-size: 40px;
+    color: white;
+    margin-right:130px ;
+    margin-left: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: static;
+    margin:10px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    
+   
+}
+
+.nav a{
+    
+    display: inline-flex;
+    justify-content: flex-end;
+    color: white;
+    
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: red;
+    color: black;
+}
+
+.btn{
+    display: inline-flex;
+    justify-content:stretch;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(199, 0, 0);
+    color: snow;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.columnA{
+    flex-wrap: wrap;
+    position: relative;
+    left: 650px;
+    top: 10px;
+    margin-left: 20px;
+    width: 350px;
+    height:750px;
+    align-items: flex-start;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.rightbox{
+    justify-content: center;
+    width: 370px;
+    height: 750px;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    margin-right: 10px;
+
+    
+}
+#BoxC{
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: snow;
+    margin-left: 30px;
+    border: 1px solid red;
+    margin-top: 1px;
+    position: relative;
+    left: 150px;
+    text-align:center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+#BoxD{
+    position:relative;
+    top: 250px;
+    right: 150px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 300px;
+    height: 480px;
+    display: flex;
+    background-color: snow;
+    border: 1px solid red;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#columnB{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 1000px;
+    display: flex;
+    justify-content:space-around;
+    height:750px;
+    width: 800;
+    align-items:flex-start;
+    margin-top: 10px;
+    
+}
+#BoxA{
+    flex-wrap:wrap;
+    position: relative;
+    bottom: 750px;
+    margin-left: 50px;
+    width: 600px;
+    height: 350px;
+    display:flex;
+    justify-content: flex-start;
+    text-align:center;
+    background-color: snow;
+    margin-top: 10px;
+    border: 1px solid red;
+    align-items: flex-start;
+    
+
+}
+
+#BoxB{
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 730px;
+    margin-left: 50px;
+     width: 600px;
+    width: 600px;
+    height: 350px;
+    display:flex;
+    justify-content: flex-start;
+    align-content:flex-start;
+    background-color: snow;
+    margin-top: 10px;
+    border: 1px solid red;
+    text-align: center;
+}
+.headerA{
+    position: relative;
+    bottom: 17px;
+    background-color: rgb(0, 0, 0);
+    height: 130px;
+    width: 700px;
+    display:flex;
+    justify-content:flex-start;
+    align-self: center;
+    
+}
+.profile{
+    position: relative;
+    top: 60px;
+    left: 60px;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 1px solid red;
+    align-self: center;
+}
+.headerB{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 30px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 600px;
+    align-self: flex-start;
+}
+.headerC{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 65px;
+    width: 300px;
+    justify-content: flex-start;
+
+}
+.headerD{
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 300px;
+}
+#oval{
+    position: relative;
+    top: 20px;
+    height: 25px;
+    left: 15px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 8px 10px;
+    text-align: center;
+    padding: 1px 8px;
+}
+#circle{
+    position: relative;
+    left: 10px;
+    height: 25px;
+    width: 25px;
+    align-self: center;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 8px 10px;
+    text-align: center;
+    padding: 1px 8px;
+}
+h2{
+    position: relative;
+    top: 10px;
+    right: 40px;
+    
+}
+p2{
+    
+    margin-bottom: 10px;
+}
+.gear{
+    position: relative;
+    right: 50px;
+    top:10px;
+    display: inline;
+    height: 15px;
+    width: 15px;
+}
+a2{
+    
+    position: relative;
+    right: 45px;
+    top: 7px;
+}
+.marker{
+    position: relative;
+    right: 10px;
+    height: 15px;
+    width: 15px;
+}
+p{
+    font-size: x-large;
+    color: snow;
+}
+.todd{
+    margin: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.Phil{
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+p3{
+    position: relative;
+    right: 170px;
+    bottom: 80px;
+}
+.check{
+    position: relative;
+    left: 35px;
+    bottom: 25px;
+    height: 30px;
+    width: 30px;
+
+}
+.no{
+    position: relative;
+    left: 35px;
+    bottom: 25px;
+        height: 30px;
+        width: 30px;
+    
+}
+.checkB{
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+    height: 30px;
+    width: 30px;
+
+}
+.noB{
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+    height: 30px;
+     width: 30px;
+    
+}
+.adrien{
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.anne{
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.arry{
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.alayne{ 
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.textboxC{
+    position: relative;
+    left: 110px;
+    bottom: 270px;
+    display: flex;
+    background-color: blue;
+    height: 120px;
+    width: 90px;
+}
+.textboxD{
+    position: relative;
+    
+    display: flex;
+    background-color: blue;
+    height: 10px;
+    width: 90px;
+}
+.footer{
+    position:relative;
+    top: 45px;
+    display: flex;
+    background-color: snow;
+    width: 298px;
+    height: 60px;
+    border: 1px solid red;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+p4{
+    position: relative;
+    top: 20px;
+    text-decoration: underline;
+    color: blue;
+}
